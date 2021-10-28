@@ -1,8 +1,10 @@
 import React, { Fragment } from 'react';
 import './style.css';
-import Header from './component/Layout/Header';
+import Header from './components/Layout/Header';
 export default function App() {
-  return <Fragment>
-    <Header/>
-  </Fragment>;
+  return (
+    <Fragment>
+      <Header />
+    </Fragment>
+  );
 }
